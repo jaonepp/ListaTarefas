@@ -36,9 +36,9 @@ public class ListaTarefas {
         listaTarefa.adicionarTarefa("Tarefa 0");
         listaTarefa.adicionarTarefa("Tarefa 3");
          System.out.println("O numero total de elementos na lista e: " + listaTarefa.ObterNumeroTotalTarefas());
-        //listaTarefa.removerTarefa("Tarefa 1");
+        
         System.out.println("O numero total de elementos na lista e: " + listaTarefa.ObterNumeroTotalTarefas());
-
+        listaTarefa.removerTarefa("Tarefa 1");
         listaTarefa.ObterDescricoesTarefas();
     }
 
